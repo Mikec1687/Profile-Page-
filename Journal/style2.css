@@ -1,0 +1,82 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    font-family: 'Amatic SC', cursive;
+        
+}
+
+body{
+    display: flex;
+    position: relative;
+}
+
+ion-icon{
+    font-size: 64px;
+    border-style: solid;
+    box-shadow: 15px 10px 15px black;
+        
+}
+
+.img{
+    
+}
+header{    
+    display: flex;  
+    flex-direction: row;    
+    justify-content: space-between;
+    padding: 1em;
+
+ }
+
+ header span{
+     
+     border-style: solid;
+     text-align: center;
+     padding: 15px;
+     font-size:2rem;
+     box-shadow: 15px 10px 15px black;
+
+ }
+.side-nav{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 300px;
+    text-align: center;
+    border-right: solid;
+        
+        
+    }
+
+ .side-nav li{
+    list-style: none;
+    margin-top:1em;
+    color:black;
+ }    
+
+ nav a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ main{
+    
+     margin-left: 300px; 
+     width: 100%;
+         
+ }
+
+ section{
+     border-style: solid;
+     margin:1em;
+     padding: 1em;
+     box-shadow: 15px 10px 15px black;
+
+ }
+
+ 
