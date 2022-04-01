@@ -3,24 +3,32 @@ html body{
     width: 100%;
     margin:0;
     font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    
         
 }
 
 body{
     display: flex;
-    position: relative;
+    background-image: url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    width: 100%;
 }
+
 
 ion-icon{
     font-size: 64px;
     border-style: solid;
     box-shadow: 15px 10px 15px black;
+    background-color: rgb(158, 181, 243);
         
 }
 
-.img{
-    
-}
+
 header{    
     display: flex;  
     flex-direction: row;    
@@ -35,6 +43,7 @@ header{
      text-align: center;
      padding: 15px;
      font-size:2rem;
+     background-color: rgb(158, 181, 243);
      box-shadow: 15px 10px 15px black;
 
  }
@@ -49,34 +58,82 @@ header{
     width: 300px;
     text-align: center;
     border-right: solid;
-        
-        
-    }
+    color: white;
+    background-color: rgb(102, 135, 224);
+    margin: 0;
+}
 
  .side-nav li{
     list-style: none;
     margin-top:1em;
-    color:black;
- }    
+    }    
 
  nav a{
     text-decoration: none;
-    color: black;
+    color: white;
  }
  
  main{
     
      margin-left: 300px; 
      width: 100%;
-         
  }
 
  section{
      border-style: solid;
      margin:1em;
      padding: 1em;
+     background-color: rgb(158, 181, 243);
      box-shadow: 15px 10px 15px black;
 
  }
+  
+ #introduction{
+    display: grid;
+    overflow: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+       
+ }
 
- 
+ #intro1{
+    grid-column-start:1;
+    grid-column-end:5;
+    width:100%;
+    
+ }
+
+ #intro2{
+    grid-column-start:1;
+    grid-column-end:3;
+    width:100%;
+    
+}
+
+#intro3{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(/img/8.jpeg);
+    background-position:center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    box-shadow: 15px 10px 15px black;
+   
+
+
+    
+       
+}
+
+#intro4 {
+    
+    grid-column-start:1;
+    grid-column-end:5;
+   
+       
+       
+}
+
