@@ -11,6 +11,10 @@ html, body{
     text-align: center;
     color: white;
     text-shadow: 0px 0px 250px black;
+    width: 50%;
+    margin: auto;
+    top:20%;
+    position: relative;
     
 }
 
@@ -34,22 +38,25 @@ img{
     max-width: 100%;
     height: auto;
     width: auto;
+    
 }
 
 .intro{
     height: 100%;
     width: 100%;
-    margin: auto;
     background: url(/img/1.jpg) no-repeat 50% 50%;
     background-size: cover;
     top: 0;
+    border: solid;
+    
+    
 }
 /*-- nav --*/
 
 nav{
-    background-color: black;
+    
     padding: 0;
-    position: fixed;
+    position: relative;
 
 }
 
@@ -58,7 +65,7 @@ nav ul{
 }
 
 nav ul li{
-    font-size: 120%;
+    font-size: 150%;
 }
 
 nav ul li a{
@@ -82,9 +89,9 @@ nav ul, nav:active ul{
     display: none;
     width: 20%;
     z-index: 999;
-    top: 45px;
-    left: 50px;
-    background-color: white;
+    top: 0px;
+    left: 40px;
+    
     
     
 }
@@ -143,7 +150,7 @@ letter-spacing:100%;
 }
 
 .break{
-    display:none;
+    display:inline;
 }
 
 .parallax{
@@ -230,4 +237,5 @@ footer p{
     .social li{
         font-size: 300%;
         display: center;
-    }   
+    }
+}

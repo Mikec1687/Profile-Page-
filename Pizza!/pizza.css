@@ -1,0 +1,301 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 200%;
+    font-size: 120%;
+    font-family: 'Major Mono Display', monospace;
+    background: black;
+    
+    
+    
+ 
+}
+
+.landing{
+    background-image: url(/img/pizza-landing.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    opacity: .6;
+    
+    
+    
+}
+
+.nav{
+    
+    background: black;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 15vh; 
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 0 10px #00a852;
+    
+       
+     
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+        
+}
+
+.nav-links li{
+    margin-right: 1em;
+    font-size: 200%;
+    
+   
+
+}
+
+.logo{
+    border: solid;
+    border-color: #00a852;
+    top: 0;
+    box-shadow: 0px 0px 30px darkgreen;
+    margin: 1%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #c2c2c2;
+    font-weight: 800;
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+    color: white;
+    box-shadow: 0px 0px 30px #00a852;
+}
+
+.nav a::after{
+    content: "";
+    width: 0%;
+    background-color: #00a852;
+    height: 5px;
+    display: block;
+    
+    
+
+}
+
+.nav a:hover::after{
+    width: 100%;
+    
+}
+
+.nav a::before{
+    content: "";
+    width: 0%;
+    background-color:#00a852;
+    height: 5px;
+    display: block;
+    
+
+}
+
+.nav a:hover::before{
+    width: 100%;
+}
+
+
+/*-- Nav End--*/
+
+.intro, .merch{
+    margin:5%;
+    border-bottom: solid;
+    padding-bottom: 2%;
+    background-color: black;
+    color: #c2c2c2;
+      
+}
+
+h1, h2{
+    color: #00a852;
+}
+
+
+
+.intro img{
+    float: left;
+    height: auto;
+    width: 30%;
+    margin: 2%;
+    border: solid;
+    border-color: #00a852;
+    box-shadow: 0px 0px 20px #00a852;
+    
+}
+
+.merch img{
+    float: right;
+    height: auto;
+    width: 20%;
+    margin: 2%;
+    border: solid;
+    border-color: #00a852;
+    box-shadow: 0px 0px 20px #00a852;
+    
+}
+ .clearfix{
+     clear: both;
+ }
+
+main{
+ padding: 5% 0%;
+
+ 
+}
+
+.menu{
+    margin: 0%  10%;
+    text-align: center;
+    box-shadow: 0px 0px 20px green;
+    border: solid;
+    border-color: #00a852;
+    height: auto;
+    background-color:black;
+    color: #c2c2c2;
+    padding: 2%;
+
+}
+ .Menu-item-right{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    margin: 3%;
+    border: solid;
+    border-color: #00a852;
+    box-shadow: 0px 0px 20px #00a852;
+    
+ }
+
+ .Menu-item-left{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: auto;
+    margin: 3%;
+    border: solid;
+    color: black;
+    background: #c2c2c2;
+    box-shadow: 0px 0px 20px #00a852;
+}
+
+ .menu img{
+     border: solid;
+     height: 20vh;
+     box-shadow: none;
+     margin:5%;
+     
+       
+
+     
+ }
+
+ .menu-text{
+     width: 20ch;
+     align-self: center;
+ }
+
+ .para{
+     background: url(/img/up.jpg);
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     opacity: .6;
+     border:none solid;
+    border-color: #00a852;
+    box-shadow: 0px 0px 20px #00a852;
+    
+     
+     
+     
+ }
+
+ .para-inner{
+     padding-top:20%;
+    
+     
+ }
+
+ .para-inner2{
+    background: url(/img/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .6;
+    margin: 0;
+    padding-top: 25%;
+    border: none solid;
+    border-color: #00a852;
+    box-shadow: 0px 0px 20px #00a852;
+    
+   
+}
+
+.links{
+    background-color:black;
+    color: #c2c2c2;
+    margin: 0;
+    text-align: center;
+    
+
+}
+
+
+.link-icons{
+    padding: 0% 30% ;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    font-size: 300%;
+    color: black;
+    
+    
+}
+
+.link-icons li{
+    border: solid;
+    border-color: #00a852;
+    padding: 1%;
+    margin-bottom:5%;
+    box-shadow: 0px 0px 20px #00a852;
+}
+
+
+.opening{
+
+    text-align: center;
+    margin: 5% 35%;
+    color: #c2c2c2;
+    border: solid;
+    border-color: #00a852;
+    box-shadow: 0px 0px 30px #00a852;
+}
+
+
+
