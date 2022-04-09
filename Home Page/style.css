@@ -45,7 +45,16 @@ html, body{
     background-size: cover;
     
 }
-
+.img8{
+    background-image:url('/img/HP.jpg');
+    width:100%;
+    min-height: 100%;
+    position: relative;
+    background-position:center;
+    background-size: contain;
+background-repeat: no-repeat;
+    
+}
 
 
 .img1, .img2, .img3{
