@@ -171,6 +171,15 @@ header{
 
 .img6{
     box-shadow: 15px 10px 15px black;
-    
+}
 
+#aprilplan{
+    display: flex;
+    gap:2%;
+    box-shadow: none;
+
+}
+
+#aprilplan li{
+    list-style: none;
 }
