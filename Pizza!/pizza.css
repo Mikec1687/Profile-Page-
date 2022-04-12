@@ -308,11 +308,13 @@ html, body{
 }
 
 .nav a{
-    font-size:50% ;
+    font-size:30% ;
+    justify-content: ;
 }
 
 .logo{
     display: none;
+    
 }
 
 .landing{
@@ -322,6 +324,11 @@ background-size: cover;
 background-attachment: local;
 opacity: 1;
 
+
 }
+.para-inner{
+    padding-top:25vh;
+   
+  
 }
 
