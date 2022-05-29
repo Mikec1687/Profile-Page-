@@ -17,6 +17,7 @@ body{
     margin: 0;
     background-attachment: fixed;
     width: 100%;
+
 }
 
 
@@ -181,4 +182,8 @@ header{
 
 #aprilplan li{
     list-style: none;
+}
+
+h1,h3{
+    text-decoration: underline;
 }
