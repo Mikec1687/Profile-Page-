@@ -187,3 +187,19 @@ header{
 h1,h3{
     text-decoration: underline;
 }
+
+.img7{
+    box-shadow: 15px 10px 15px black;
+    width:auto;
+    height: 15em;
+    position: relative;
+    margin-left: 3em;
+    
+    
+}
+
+.LandR{
+display: flex;
+padding: 1%;
+
+}
