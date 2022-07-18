@@ -193,8 +193,7 @@ h1,h3{
     width:auto;
     height: 15em;
     position: relative;
-    margin-left: 3em;
-    
+      
     
 }
 
@@ -203,3 +202,14 @@ display: flex;
 padding: 1%;
 
 }
+
+.img8{
+    
+    width:auto;
+    height: 5em;
+    float: right;
+   
+     
+    
+}
+
